@@ -17,7 +17,7 @@ maybe_cheeses = %w[umbrella spinach cheddar helicopter]
 def find_the_cheese(maybe_cheeses)
   cheeses = %w[gouda cheddar camembert]
   maybe_cheeses.find do |cheese| 
-  cheese.include? (cheese)
+  cheeses.include? (cheese)
   # cheese_types = ["cheddar", "gouda", "camembert"]
   end
 end
